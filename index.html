@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Royal</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <div id="info-header">
+            <p>1441 Market St, San Francisco</p>
+            <p>(123) 456-7890</p>
+            <p>Mon - Sun: 8:00am - 6:00pm</p>
+            <p id="p-login">LOGIN/REGISTER</p>
+        </div>
+
+        <nav id="nav-header">
+            <ul class="ul-header">
+                <a id="logo-nav" href="./index.html">
+                    <img src="./styles/1Header/Logo.png" alt="logo-CasaRoyal">
+                </a>
+
+                <a href="./index.html">
+                    <li>HOMEPAGE</li>
+                </a>
+                <li>PROPERTIES</li>
+                <li>AGENCIES</li>
+                <li>PAGES</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+            <div class="ul-header" id="ul-btn-header">
+                <ul>
+                    <li>COMPARE</li>
+                </ul>
+                <button id="submit-listing">SUBMIT LISTING</button>
+            </div>
+        </nav>
+
+        <div id="select-info">
+            <div id="select-text">
+                <h2>Let Us Guide You Home</h2>
+                <h4>Find the house of your dreams</h4>
+            </div>
+            <div id="select">
+                <div id="select-type">
+                    <legend for="type">Type</legend>
+                    <select name="type" id="type">
+                        <option selected value="">Select Type</option>
+                        <option value="house">House</option>
+                        <option value="farm">Farm</option>
+                        <option value="commercial-place">Commercial place</option>
+                        <option value="apartment">Apartment</option>
+                    </select>
+                </div>
+                <div id="select-location">
+                    <legend for="location">Location</legend>
+                    <select name="location" id="location">
+                        <option selected value="">Select Location</option>
+                        <option value="Beverly Hills">Beverly Hills</option>
+                        <option value="New York">New York</option>
+                        <option value="Newport Beach">Newport Beach</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                    </select>
+                </div>
+                <input type="text" disabled placeholder="Search for properties, suburbs or keywords…" />
+                <button id="btn-find">FIND PROPERTIES</button>
+            </div>
+        </div>
+    </header>
+    <section id="cards-section">
+        <div id="cards-titles" class="section-titles">
+            <span class="subtitles">CASAROYAL REAL ESTATE AGENCY</span>
+            <h3 class="titles">Featured<span class="no-bold"> Properties</span></h3>
+        </div>
+        <div id="cards-div">
+            <!--<div class="cards">
+                <a href="#">
+                    <div class="cards-img">
+                        <img src="https://sarlbeatricefournet-reymondarchi.fr/files/sliders/small_slider_84525.jpg">
+                        <button class="btn-type">Type</button>
+                        <button class="btn-status">Status</button>
+                        <button class="btn-fav">❤</button>
+                        <button class="btn-price">price</button>
+                    </div>
+                    <div class="cards-info">
+                        <div class="info-container">
+                            <span class="span-location">asdlajsdkasd location</span>
+                            <p class="p-name">name 2710 Hilltop Dr, Newport Beach, USA</p>
+                            <span class="p-agent">agent Brianne Smith</span>
+                            <div class="iconos">
+                                <img src="./styles/2featured properties/Area_Icon.svg">
+                                <span class="icon-area">area</span>
+
+                                <img src="./styles/2featured properties/Garage_Icon.svg">
+                                <span class="icon-garage">parking</span>
+
+                                <img src="./styles/2featured properties/Bathroom_Icon.svg">
+                                <span class="icon-baths">baths</span>
+
+                                <img src="./styles/2featured properties/Bedroom_Icon.svg">
+                                <span class="icon-beds">beds</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="#">
+                    <div class="cards-img">
+                        <img src="https://sarlbeatricefournet-reymondarchi.fr/files/sliders/small_slider_84525.jpg">
+                        <button class="btn-type">Type</button>
+                        <button class="btn-status">Status</button>
+                        <button class="btn-fav">❤</button>
+                        <button class="btn-price">price</button>
+                    </div>
+                    <div class="cards-info">
+                        <div class="info-container">
+                            <span class="span-location">asdlajsdkasd location</span>
+                            <p class="p-name">name 2710 Hilltop Dr, Newport Beach, USA</p>
+                            <span class="p-agent">agent Brianne Smith</span>
+                            <div class="iconos">
+                                <img src="./styles/2featured properties/Area_Icon.svg">
+                                <span class="icon-area">area</span>
+
+                                <img src="./styles/2featured properties/Garage_Icon.svg">
+                                <span class="icon-garage">parking</span>
+
+                                <img src="./styles/2featured properties/Bathroom_Icon.svg">
+                                <span class="icon-baths">baths</span>
+
+                                <img src="./styles/2featured properties/Bedroom_Icon.svg">
+                                <span class="icon-beds">beds</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="#">
+                    <div class="cards-img">
+                        <img src="https://sarlbeatricefournet-reymondarchi.fr/files/sliders/small_slider_84525.jpg">
+                        <button class="btn-type">Type</button>
+                        <button class="btn-status">Status</button>
+                        <button class="btn-fav">❤</button>
+                        <button class="btn-price">price</button>
+                    </div>
+                    <div class="cards-info">
+                        <div class="info-container">
+                            <span class="span-location">asdlajsdkasd location</span>
+                            <p class="p-name">name 2710 Hilltop Dr, Newport Beach, USA</p>
+                            <span class="p-agent">agent Brianne Smith</span>
+                            <div class="iconos">
+                                <img src="./styles/2featured properties/Area_Icon.svg">
+                                <span class="icon-area">area</span>
+
+                                <img src="./styles/2featured properties/Garage_Icon.svg">
+                                <span class="icon-garage">parking</span>
+
+                                <img src="./styles/2featured properties/Bathroom_Icon.svg">
+                                <span class="icon-baths">baths</span>
+
+                                <img src="./styles/2featured properties/Bedroom_Icon.svg">
+                                <span class="icon-beds">beds</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="#">
+                    <div class="cards-img">
+                        <img src="https://sarlbeatricefournet-reymondarchi.fr/files/sliders/small_slider_84525.jpg">
+                        <button class="btn-type">Type</button>
+                        <button class="btn-status">Status</button>
+                        <button class="btn-fav">❤</button>
+                        <button class="btn-price">price</button>
+                    </div>
+                    <div class="cards-info">
+                        <div class="info-container">
+                            <span class="span-location">asdlajsdkasd location</span>
+                            <p class="p-name">name 2710 Hilltop Dr, Newport Beach, USA</p>
+                            <span class="p-agent">agent Brianne Smith</span>
+                            <div class="iconos">
+                                <img src="./styles/2featured properties/Area_Icon.svg">
+                                <span class="icon-area">area</span>
+
+                                <img src="./styles/2featured properties/Garage_Icon.svg">
+                                <span class="icon-garage">parking</span>
+
+                                <img src="./styles/2featured properties/Bathroom_Icon.svg">
+                                <span class="icon-baths">baths</span>
+
+                                <img src="./styles/2featured properties/Bedroom_Icon.svg">
+                                <span class="icon-beds">beds</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="#">
+                    <div class="cards-img">
+                        <img src="https://sarlbeatricefournet-reymondarchi.fr/files/sliders/small_slider_84525.jpg">
+                        <button class="btn-type">Type</button>
+                        <button class="btn-status">Status</button>
+                        <button class="btn-fav">❤</button>
+                        <button class="btn-price">price</button>
+                    </div>
+                    <div class="cards-info">
+                        <div class="info-container">
+                            <span class="span-location">asdlajsdkasd location</span>
+                            <p class="p-name">name 2710 Hilltop Dr, Newport Beach, USA</p>
+                            <span class="p-agent">agent Brianne Smith</span>
+                            <div class="iconos">
+                                <img src="./styles/2featured properties/Area_Icon.svg">
+                                <span class="icon-area">area</span>
+
+                                <img src="./styles/2featured properties/Garage_Icon.svg">
+                                <span class="icon-garage">parking</span>
+
+                                <img src="./styles/2featured properties/Bathroom_Icon.svg">
+                                <span class="icon-baths">baths</span>
+
+                                <img src="./styles/2featured properties/Bedroom_Icon.svg">
+                                <span class="icon-beds">beds</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="cards">
+                <a href="#">
+                    <div class="cards-img">
+                        <img src="https://sarlbeatricefournet-reymondarchi.fr/files/sliders/small_slider_84525.jpg">
+                        <button class="btn-type">Type</button>
+                        <button class="btn-status">Status</button>
+                        <button class="btn-fav">❤</button>
+                        <button class="btn-price">price</button>
+                    </div>
+                    <div class="cards-info">
+                        <div class="info-container">
+                            <span class="span-location">asdlajsdkasd location</span>
+                            <p class="p-name">name 2710 Hilltop Dr, Newport Beach, USA</p>
+                            <span class="p-agent">agent Brianne Smith</span>
+                            <div class="iconos">
+                                <img src="./styles/2featured properties/Area_Icon.svg">
+                                <span class="icon-area">area</span>
+
+                                <img src="./styles/2featured properties/Garage_Icon.svg">
+                                <span class="icon-garage">parking</span>
+
+                                <img src="./styles/2featured properties/Bathroom_Icon.svg">
+                                <span class="icon-baths">baths</span>
+
+                                <img src="./styles/2featured properties/Bedroom_Icon.svg">
+                                <span class="icon-beds">beds</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>-->
+        </div>
+        <button id="btn-properties" onclick="traerPropiedades()">ALL PROPERTIES</button>
+    </section>
+
+    <section id="hot-deal-section" class="section-titles">
+
+        <span class="subtitles">CASAROYAL REAL ESTATE AGENCY</span>
+        <h3 class="titles">Hot <span class="no-bold">Deal</span></h3>
+        <div id="hot-deal">
+            <div id="img-hot-deal">
+                <img src="./styles/3Hot Deal/isaac-benhesed-249429-unsplash-1.png">
+            </div>
+            <div id="info-hot-deal">
+                <span class="span-HD">Residential Towe For Rent</span>
+                <h2>15 Apartments of Type B</h2>
+                <span class="span-HD">Los Angeles, CA</span>
+                <button id="price-hot-deal">From $1,700.00 Per Month</button>
+                <div class="iconos-HD">
+                    <img src="./styles/3Hot Deal/Area Icon.png">
+                    <span class="area-property">1600 Sq Ft</span>
+
+                    <img src="./styles/3Hot Deal/Garage Icon.png">
+                    <span class="garage-property">1</span>
+
+                    <img src="./styles/3Hot Deal/Bathroom Icon.png">
+                    <span class="baths-property">3</span>
+
+                    <img src="./styles/3Hot Deal/Bedroom Icon.png">
+                    <span class="beds-property">4</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="properties-section" class="section-titles">
+        <span class="subtitles">CASAROYAL REAL ESTATE AGENCY</span>
+        <h3 class="titles">Properties <span class="no-bold">by Area</span></h3>
+        <div id="cities">
+            <div id="LA">
+                <img src="./styles/4Properties Area/los-angeles-1.png" alt="Los Angeles">
+                <p class="city">Los Angeles</p>
+                <p class="properties">24 properties</p>
+            </div>
+            <div id="San-Francisco">
+                <img src="./styles/4Properties Area/joseph-barrientos-49318-unsplash.png" alt="San Francisco">
+                <p class="city">San Francisco</p>
+                <p class="properties">19 properties</p>
+            </div>
+            <div id="Seattle">
+                <img src="./styles/4Properties Area/ben-dutton-1339856-unsplash.png" alt="Seattle">
+                <p class="city">Seattle</p>
+                <p class="properties">13 properties</p>
+            </div>
+            <div id="San-Diego">
+                <img src="./styles/4Properties Area/tyrel-johnson-735248-unsplash.png" alt="San San Diego">
+                <p class="city">San Diego</p>
+                <p class="properties">1 properties</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="agents-section" class="section-titles">
+        <span class="subtitles">MEET OUR AGENTS</span>
+        <h3 class="titles">Our <span class="no-bold">Agents</span></h3>
+        <div id="agents">
+            <div class="agent-card">
+                <img src="./styles/5Our agents/Agent_Card_1.png">
+            </div>
+            <div class="agent-card">
+                <img src="./styles/5Our agents/Agent_Card_2.png">
+            </div>
+            <div class="agent-card">
+                <img src="./styles/5Our agents/Agent_Card_3.png">
+            </div>
+        </div>
+        <img id="nav-btn" src="./styles/5Our agents/Navigation.png">
+    </section>
+
+    <section id="sell-properties">
+        <div>
+            <img id="sell-img" src="./styles/6Sell Properties/Section - Sell Property.png">
+        </div>
+    </section>
+
+    <section id="agencies-section" class="section-titles">
+        <span class="subtitles">MEET OUR AGENTS</span>
+        <h3 class="titles">Real Estate <span class="no-bold">Agencies</span></h3>
+        <div id="agencies">
+            <div class="agencies-card">
+                <img src="./styles/7Agencies/Agency Card 1.png">
+            </div>
+            <div class="agencies-card">
+                <img src="./styles/7Agencies/Agency Card 2.png">
+            </div>
+            <div class="agencies-card">
+                <img src="./styles/7Agencies/Agency Card 3.png">
+            </div>
+        </div>
+
+    </section>
+    <section id="articles-section" class="section-titles">
+        <span class="subtitles">CASAROYAL NEWS</span>
+        <h3 class="titles">Articles <span class="no-bold">& Tips</span></h3>
+        <div id="articles">
+            <div class="articles-card">
+                <img src="./styles/8Articles/News Block 1.png">
+            </div>
+            <div class="articles-card">
+                <img src="./styles/8Articles/News Block 2.png">
+            </div>
+            <div class="articles-card">
+                <img src="./styles/8Articles/News Block 3.png">
+            </div>
+        </div>
+        <button id="btn-articles">MORE ARTICLES & TIPS</button>
+    </section>
+    <section id="value-section" class="section-titles">
+        <span class="subtitles">CASAROYAL REAL ESTATE AGENCY</span>
+        <h3 class="titles">Our <span class="no-bold">Values</span></h3>
+        <div id="value">
+            <div class="value-card">
+                <img src="./styles/9Values/Value Block 1.png">
+            </div>
+            <div class="value-card">
+                <img src="./styles/9Values/Value Block 2.png">
+            </div>
+            <div class="value-card">
+                <img src="./styles/9Values/Value Block 1.png">
+            </div>
+        </div>
+        <button id="btn-value">READ MORE</button>
+    </section>
+
+    <section id="testimonials-section" class="section-titles2">
+        <span class="subtitles2">CLIENTS REVIEW</span>
+        <h3 class="titles2">What <span class="no-bold2">Our Clients Say</span></h3>
+
+        <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error velit ipsum blanditiis eos
+            aspernatur esse voluptas, id, eveniet quae autem quibusdam repellendus. Eum animi sequi iste provident
+            nostrum facere libero.</p>
+
+        <img id="testimonial-img" src="./styles/10Testimonials/Author.png">
+
+    </section>
+
+    <footer>
+        <a href="#info-header">
+            <div id="footer-header">
+                <img src="./styles/11Footer/Logo.png">
+            </div>
+        </a>
+        <div id="info-footer">
+            <div class="footer-containers" id="information">
+                <h3>INFORMATION</h3>
+                <p>Our contacts</p>
+                <p>Privacy Policy</p>
+                <p>Terms and conditions</p>
+                <p>FAQs</p>
+            </div>
+            <div class="footer-containers" id="properties">
+                <h3>PROPERTIES</h3>
+                <p>Commercial</p>
+                <p>House</p>
+                <p>Office</p>
+                <p>Residential</p>
+                <p>Residential Tower</p>
+            </div>
+            <div class="footer-containers" id="location">
+                <h3>LOCATIONS</h3>
+                <p>Beverly Hills</p>
+                <p>Los Angeles</p>
+                <p>Mission Viejo</p>
+                <p>Newport Beach</p>
+                <p>Pasadena</p>
+            </div>
+            <div class="footer-containers" id="links">
+                <h3>USEFULL LINKS</h3>
+                <p>Blog</p>
+                <p>Our Contacts</p>
+                <p>Submit Listing</p>
+                <p>Support</p>
+            </div>
+            <div class="footer-containers" id="about">
+                <h3>ABOUT CASAROYAL</h3>
+                <p>CasaRoyal - Premium Real Estate WordPress
+                    Theme by FantasyThemes</p>
+                <p>111 Wall Stree, USA, New York
+                    +1 (234) 567 8900</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,894 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    --blue: #2A41E8;
+    --white: #FFFFFF;
+    --white1: #FAFAFA;
+    --orange: #FF5E14;
+    --gray: #4b4d4F;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*--Estilos header--*/
+
+#info-header {
+    display: flex;
+    background-color: var(--blue);
+    color: var(--white);
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#info-header p {
+    padding: 0 0.5%;
+    font-size: 1.3vw;
+}
+
+#p-login {
+    position: absolute;
+    right: 1%;
+    cursor: pointer;
+}
+
+#nav-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+}
+
+.ul-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.ul-header li {
+    padding: 0 1%;
+    color: var(--gray);
+    font-size: 1.3vw;
+}
+
+.ul-header li:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+#ul-btn-header {
+    list-style-type: none;
+    display: flex;
+}
+
+#submit-listing {
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+    height: 100%;
+    font-size: 1.2vw;
+    margin-left: 8vw;
+    cursor: pointer;
+}
+
+/*--Estilos select-info--*/
+
+#select-info {
+    background-image: url(./1Header/hero-bg-image.png);
+    background-size: cover;
+    color: var(--white);
+    padding-bottom: 9%;
+}
+
+#select-text {
+    padding-top: 10%;
+    margin: auto;
+    width: 77%;
+}
+
+#select {
+    display: flex;
+    background-color: var(--white);
+    width: 75%;
+    margin: auto;
+    border-radius: 5px;
+    color: #9B9B9B;
+    font-family: 'Rubik', sans-serif;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+select {
+    background-color: #ECECEC;
+    border: none;
+    font-size: 1vw;
+}
+
+#select-type,
+#select-location,
+input {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1vw;
+    background-color: #ECECEC;
+    width: 27%;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn-find {
+    background-color: var(--blue);
+    font-size: 1vw;
+    border: none;
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*--Estilos títulos de secciones--*/
+
+.no-bold {
+    font-weight: normal;
+}
+
+.section-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+}
+
+.section-titles h3 {
+    font-size: 3vw;
+    margin-top: 0.5vw;
+}
+
+.subtitles {
+    font-size: xx-small;
+}
+
+/*--Estilos Featured properties section--*/
+
+#cards-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+#cards-section {
+    width: 70%;
+    margin: auto;
+}
+
+.cards {
+    background-color: var(--white);
+    height: 28vw;
+    width: 30%;
+    margin-bottom: 1.5vw;
+    border-radius: 4px;
+}
+
+.cards-img {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.cards-img img {
+    height: 100%;
+}
+
+.cards-info {
+    height: 50%;
+    width: 100%;
+}
+
+.info-container {
+    width: 90%;
+    margin: auto;
+    font-size: 1.3vw;
+}
+
+.cards-img button {
+    font-size: 1vw;
+    padding: 0.2vw 0.5vw;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn-type {
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn-status {
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btns {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+}
+
+.btn-fav {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn-price {
+    position: absolute;
+    left: 4%;
+    bottom: 8%;
+    background-color: var(--white);
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.span-location {
+    position: relative;
+    top: 8%;
+    left: 8%;
+    color: #848484;
+    font-size: smaller;
+}
+
+.p-name {
+    position: relative;
+    top: 8%;
+    color: #1D1D1D;
+}
+
+.p-agent {
+    position: relative;
+    top: 8%;
+    left: 8%;
+    color: var(--blue);
+    font-size: smaller;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7%;
+    border-top: 1px solid #848484;
+    padding-top: 3%;
+}
+
+#btn-properties {
+    position: relative;
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    color: var(--white1);
+    padding: 1%;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+/* --Estilos Hot Deal --*/
+
+#hot-deal {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: #292929;
+    color: var(--white1);
+
+}
+
+#img-hot-deal {
+    width: 50%;
+}
+
+.span-HD {
+    color: #9B9B9B;
+    font-size: 1.3vw;
+}
+
+#img-hot-deal img {
+    width: 100%;
+    height: 100%;
+}
+
+#info-hot-deal {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1vw;
+}
+
+#price-hot-deal {
+    background-color: var(--orange);
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    padding: 1%;
+    font-size: 1vw;
+}
+
+.iconos-HD {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+}
+
+.iconos-HD img {
+    height: 50%;
+}
+
+/* -- Estilos para infoCard.html --*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #292929;
+    color: var(--white1);
+}
+
+.info-property {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4% 0;
+    font-size: 1.5vw;
+}
+
+.img-property {
+    display: flex;
+    width: 50%;
+}
+
+.img-property img {
+    width: 100%;
+}
+
+.iconos-property {
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.iconos-property img {
+    height: 2vw;
+    padding: 0 5%;
+}
+
+.name-property {
+    font-size: 2vw;
+}
+
+.type-status-price {
+    background-color: #FF5E14;
+    margin: 0.5vw;
+    padding: 0.5vw;
+    border-radius: 5px;
+}
+
+.location-property {
+    margin-top: 4%;
+    font-size: 1.3vw;
+    color: #9B9B9B;
+}
+
+.description-property {
+    width: 70%;
+}
+
+.area-property,
+.garage-property,
+.baths-property,
+.beds-property {
+    color: #9B9B9B;
+}
+
+/* --Estilos Properties Section --*/
+
+#cities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#LA,
+#San-Francisco,
+#Seattle,
+#San-Diego {
+    position: relative;
+    color: #FAFAFA;
+    filter: grayscale(60%);
+    height: 18vw;
+    margin: 0.5%;
+}
+
+#LA:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+#San-Francisco:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+#Seattle:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+#San-Diego:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+#cities img {
+    border-radius: 5px;
+    height: 100%;
+}
+
+.city {
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.properties {
+    position: absolute;
+    font-size: smaller;
+    bottom: 1%;
+    left: 5%;
+    font-size: 1.3vw;
+}
+
+/* --Estilos agents section --*/
+
+#agents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 90%;
+}
+
+.agent-card {
+    width: 20%;
+    padding: 0.8%;
+}
+
+.agent-card img {
+    width: 100%;
+    cursor: pointer;
+}
+
+#nav-btn {
+    padding: 2%;
+    cursor: pointer;
+}
+
+/* --Estilos sell properties section --*/
+
+#sell-img {
+    width: 70%;
+    margin: 0 15%;
+}
+
+/* --Estilos agencies section --*/
+
+#agencies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.agencies-card {
+    width: 25%;
+    padding: 0.8%;
+}
+
+.agencies-card img {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* --Estilos agencies section --*/
+
+#articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.articles-card {
+    width: 25%;
+    padding: 0.8%;
+}
+
+.articles-card img {
+    width: 100%;
+    cursor: pointer;
+}
+
+#btn-articles {
+    position: relative;
+    display: block;
+    width: 15%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    color: var(--white1);
+    padding: 1%;
+    cursor: pointer;
+    font-size: 1vw;
+
+}
+
+/*--Estilos Value section --*/
+#value {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.value-card {
+    width: 25%;
+    padding: 0.8%;
+}
+
+.value-card img {
+    width: 100%;
+    cursor: pointer;
+}
+
+#btn-value {
+    position: relative;
+    display: block;
+    width: 10%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    color: var(--white1);
+    padding: 1%;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+/*--Efectos testimonials section--*/
+
+#testimonials-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    background-image: url(./10Testimonials/testimonials-bg-1.png);
+    background-size: cover;
+    color: var(--white);
+}
+
+#testimonial-img {
+    width: 15%;
+    margin: 5% 0;
+}
+
+.section-titles2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.section-titles2 h3 {
+    font-size: 2vw;
+    margin-top: 0.5vw;
+}
+
+.no-bold2 {
+    font-weight: lighter;
+
+}
+
+.subtitles2 {
+    font-size: xx-small;
+}
+
+#text {
+    width: 60%;
+    letter-spacing: 1px;
+    line-height: 200%;
+    font-size: 1.5vw;
+}
+
+/*--Estilos footer--*/
+
+footer {
+    background-color: #151515;
+}
+
+#footer-header {
+    padding: 3% 0 2% 15%;
+}
+
+#footer-header img {
+    width: 13%;
+}
+
+#info-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-containers {
+    font-size: 1vw;
+    color: #ffffffbe;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+/*Responsive*/
+
+@media (max-width: 920px) {
+    #info-header p {
+        font-size: 1.5vw;
+    }
+
+    #submit-listing {
+        margin-left: 3vw;
+    }
+
+    .ul-header li {
+        font-size: 1.5vw;
+    }
+
+    select {
+        font-size: 1.5vw;
+    }
+
+    #select-type,
+    #select-location,
+    input {
+        font-size: 1.5vw;
+    }
+
+    #btn-find {
+        font-size: 1.3vw;
+    }
+
+    #cards-section {
+        width: 70%;
+    }
+
+    .cards {
+        width: 40%;
+    }
+
+    .cards-img {
+        height: 48%;
+    }
+
+    .cards-img img {
+        width: 100%;
+    }
+
+    .info-container {
+        font-size: 1.4vw;
+    }
+
+    #btn-properties,
+    #btn-articles,
+    #btn-value {
+        font-size: 1.3vw;
+    }
+
+}
+
+@media (max-width: 665px) {
+    #info-header p {
+        font-size: 2vw;
+    }
+
+    #logo-nav {
+        display: none;
+    }
+
+    #submit-listing {
+        font-size: 1.8vw;
+        margin-left: 3vw;
+    }
+
+    .ul-header li {
+        font-size: 2.2vw;
+    }
+
+    select {
+        color: #151515;
+        font-size: 1.8vw;
+    }
+
+    input {
+        display: none;
+    }
+
+    #select-type,
+    #select-location {
+        font-size: 2.5vw;
+    }
+
+    #btn-find {
+        font-size: 2vw;
+    }
+
+    #cards-section {
+        width: 90%;
+    }
+
+    .cards {
+        width: 80%;
+        height: 100%;
+    }
+
+    .cards-img img {
+        width: 100%;
+    }
+
+    .info-container {
+        font-size: 4vw;
+        padding-bottom: 3%;
+    }
+
+    #btn-properties,
+    #btn-articles,
+    #btn-value {
+        font-size: 2.3vw;
+    }
+
+    .cards-img button {
+        font-size: 3vw;
+        padding: 0.2vw 0.5vw;
+    }
+
+    .section-titles h3 {
+        font-size: 5vw;
+        margin-top: 0.5vw;
+    }
+
+    .subtitles {
+        font-size: 2vw;
+    }
+
+    #hot-deal-section {
+        width: 100%;
+    }
+
+    .span-HD,
+    #price-hot-deal {
+        font-size: 2vw;
+    }
+
+    #hot-deal-section h2 {
+        font-size: 2.3vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #ul-btn-header {
+        display: none;
+    }
+
+    #info-header p {
+        font-size: 2.2vw;
+    }
+
+    #nav-header {
+        display: flex;
+        justify-content: center;
+        height: 7vw;
+        font-size: 2vw;
+    }
+
+    #nav-header li {
+        padding: 0 5%;
+    }
+
+    /*InfoCards c: */
+
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    .info-property {
+        width: 95%;
+        font-size: 2.5vw;
+    }
+
+    .img-property {
+        width: 90%;
+    }
+
+    .name-property {
+        font-size: 5vw;
+    }
+
+    .location-property {
+        font-size: 4vw;
+    }
+
+    .area-property,
+    .garage-property,
+    .baths-property,
+    .beds-property {
+        font-size: 3vw;
+    }
+
+    .iconos-property img {
+        width: 15px;
+        height: 15px;
+    }
+
+    #footer {
+        display: none;
+    }
+}

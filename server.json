@@ -1,0 +1,112 @@
+{
+    "propiedades": [
+        {
+            "id": 1,
+            "name": "2710 Hilltop Dr, Newport Beach, USA",
+            "image": "https://beachviewrealty.com/wp-content/uploads/2022/03/CollectionsRecentlyAdded-min.jpg",
+            "location": "Newport Beach",
+            "area": "120 mt2",
+            "bathrooms": 3,
+            "rooms": 3,
+            "type": "house",
+            "status": "Rent",
+            "price": "900 per month",
+            "parking": "2",
+            "agent": {
+                "name": "Brianne Smith",
+                "telefono": 138712031
+            },
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt quas doloremque delectus in amet fugit voluptatem! Velit, quaerat architecto odit aperiam, incidunt minima quisquam ab, ipsam maxime beatae non!"
+        },
+        {
+            "id": 2,
+            "name": "272 S Rexford Dr, Beverly Hills, USA",
+            "image": "https://img.jamesedition.com/listing_images/2021/03/22/16/45/37/781692f6-30dd-40dc-8b6e-2176a84a31f0/je/1100xxs.jpg",
+            "location": "Beverly Hills",
+            "area": "223 mt2",
+            "bathrooms": 2,
+            "rooms": 3,
+            "type": "farm",
+            "status": "Sale",
+            "price": "225000 usd",
+            "parking": 2,
+            "agent": {
+                "name": "Lionel Richie",
+                "telefono": 138712031
+            },
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt quas doloremque delectus in amet fugit voluptatem! Velit, quaerat architecto odit aperiam, incidunt minima quisquam ab, ipsam maxime beatae non!"
+        },
+        {
+            "id": 3,
+            "name": "574 Commercial Place, New York, USA",
+            "image": "https://www.nyhabitat.com/sp/blog/wp-content/uploads/2013/10/outlet-nueva-jersey-centro-comercial-compras-manhattan-nyc-nueva-york.jpg",
+            "location": "New York",
+            "area": "106 mt2",
+            "bathrooms": 2,
+            "rooms": 1,
+            "type": "commercial-place",
+            "status": "Rent",
+            "price": "1250 per month",
+            "parking": 0,
+            "agent": {
+                "name": "Rachel Dawes",
+                "telefono": 138712031
+            },
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt quas doloremque delectus in amet fugit voluptatem! Velit, quaerat architecto odit aperiam, incidunt minima quisquam ab, ipsam maxime beatae non!"
+        },
+        {
+            "id": 4,
+            "name": "14 Apartments of Type A, Los Angeles, USA",
+            "image": "https://www.estrenarvivienda.com/sites/default/files/styles/tipology_view_full/public/node-project/field-project-images/vertice_ingenieria_y_construccion_-_sendero_fresco_-_sala.jpg?itok=NHCG_N-b",
+            "location": "Los Angeles",
+            "area": "95 mt2",
+            "bathrooms": 2,
+            "rooms": 2,
+            "type": "apartment",
+            "status": "Sale",
+            "price": "185000 usd",
+            "parking": 1,
+            "agent": {
+                "name": "Brianne Smith",
+                "telefono": 138712031
+            },
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt quas doloremque delectus in amet fugit voluptatem! Velit, quaerat architecto odit aperiam, incidunt minima quisquam ab, ipsam maxime beatae non!"
+        },
+        {
+            "id": 5,
+            "name": "344586 Big house, Beverly Hills, USA",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Casa_en_Estados_Unidos.jpg",
+            "location": "Beverly Hills",
+            "area": "213 mt2",
+            "bathrooms": 4,
+            "rooms": 4,
+            "type": "house",
+            "status": "Sale",
+            "price": "500000 usd",
+            "parking": 2,
+            "agent": {
+                "name": "Lionel Richie",
+                "telefono": 138712031
+            },
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt quas doloremque delectus in amet fugit voluptatem! Velit, quaerat architecto odit aperiam, incidunt minima quisquam ab, ipsam maxime beatae non!"
+        },
+        {
+            "id": 6,
+            "name": "9874 Country House, Newport Beach, USA",
+            "image": "https://hips.hearstapps.com/clv.h-cdn.co/assets/17/05/country-listings-montana-0317.jpg",
+            "location": "Newport Beach",
+            "area": "163 mt2",
+            "bathrooms": 3,
+            "rooms": 4,
+            "type": "farm",
+            "status": "Rent",
+            "price": "1400 per month",
+            "parking": 2,
+            "agent": {
+                "name": "Rachel Dawes",
+                "telefono": 138712031
+            },
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt quas doloremque delectus in amet fugit voluptatem! Velit, quaerat architecto odit aperiam, incidunt minima quisquam ab, ipsam maxime beatae non!"
+        }
+    ]
+}
